@@ -44,7 +44,7 @@ const BottomTab = () => {
             tabBarIcon: ({focused}) => (
                <View style={{ alignItems: 'center', top: 5 }}>
                   <Image 
-                     source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/500px-Search_Icon.svg.png' }}
+                     source={{ uri: 'https://i.imgur.com/40nGdhJ.png' }}
                      style={{
                         width: 25,
                         height: 25,
@@ -61,7 +61,7 @@ const BottomTab = () => {
             tabBarIcon: ({focused}) => (
                <View style={{ top: 5, alignItems: 'center' }}>
                   <Image
-                     source={{uri: 'https://image.flaticon.com/icons/png/512/61/61498.png'}}
+                     source={{uri: 'https://i.imgur.com/DHrI3bJ.png'}}
                      style={{ 
                         width: 25,
                         height: 25,
@@ -78,7 +78,7 @@ const BottomTab = () => {
             tabBarIcon: ({focused}) => (
                <View style={{ alignItems: 'center', top: 5 }}>
                   <Image 
-                     source={{ uri: 'https://icones.pro/wp-content/uploads/2021/03/icone-de-configuration-noire.png'}}
+                     source={{ uri: 'https://i.imgur.com/pSZ85sV.png'}}
                      style={{
                         width: 25,
                         height: 25,
@@ -88,8 +88,6 @@ const BottomTab = () => {
                </View>
             )
          }} />
-      
-      
       </Tab.Navigator>
       )
 }
