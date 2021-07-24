@@ -1,10 +1,10 @@
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import ScreenOne from '../screens/ScreenOne'
-import ScreenTwo from '../screens/ScreenTwo'
-import ScreenThree from '../screens/ScreenThree'
+import Home from '../screens/Home'
+import Search from '../screens/Search'
+import Chat from '../screens/Chat'
 import { Image, StyleSheet, Text, View } from 'react-native'
-import ScreenFour from '../screens/ScreenFour'
+import Settings from '../screens/Settings'
 
 const Tab = createBottomTabNavigator()
 
@@ -23,7 +23,7 @@ const BottomTab = () => {
             height: 90,
          }
       }}>
-         <Tab.Screen name="screen one" component={ScreenOne} options={{
+         <Tab.Screen name="screen one" component={Home} options={{
             tabBarIcon: ({focused}) => (
                <View style={{alignItems: 'center', top: 5}}>
                   <Image 
@@ -40,7 +40,7 @@ const BottomTab = () => {
          }} />
 
          
-         <Tab.Screen name="screen two" component={ScreenTwo} options={{
+         <Tab.Screen name="screen two" component={Search} options={{
             tabBarIcon: ({focused}) => (
                <View style={{ alignItems: 'center', top: 5 }}>
                   <Image 
@@ -57,7 +57,7 @@ const BottomTab = () => {
          }} />
          
          
-         <Tab.Screen name="screen three" component={ScreenThree} options={{
+         <Tab.Screen name="screen three" component={Chat} options={{
             tabBarIcon: ({focused}) => (
                <View style={{ top: 5, alignItems: 'center' }}>
                   <Image
@@ -74,7 +74,7 @@ const BottomTab = () => {
          }} />
          
          
-         <Tab.Screen name="screen four" component={ScreenFour} options={{
+         <Tab.Screen name="screen four" component={Settings} options={{
             tabBarIcon: ({focused}) => (
                <View style={{ alignItems: 'center', top: 5 }}>
                   <Image 

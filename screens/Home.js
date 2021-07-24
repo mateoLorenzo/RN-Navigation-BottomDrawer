@@ -1,10 +1,10 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
-const ScreenFour = () => {
+const Home = () => {
    return(
       <View style={styles.mainContainer}>
-         <Text style={styles.mainText}>SETTINGS SCREEN</Text>
+         <Text style={styles.mainText}>HOME SCREEN</Text>
       </View>
    )
 }
@@ -23,4 +23,4 @@ const styles = StyleSheet.create({
    }
 })
 
-export default ScreenFour
+export default Home

@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
-const ScreenThree = () => {
+const Chat = () => {
    return (
       <View style={styles.mainContainer}>
          <Text style={styles.mainText}>CHAT SCREEN</Text>
@@ -23,4 +23,4 @@ const styles = StyleSheet.create({
 
 })
 
-export default ScreenThree
+export default Chat

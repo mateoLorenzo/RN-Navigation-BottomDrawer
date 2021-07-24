@@ -1,7 +1,7 @@
 import React from 'react' 
 import { StyleSheet, Text, View } from 'react-native'
 
-const ScreenTwo = () => {
+const Search = () => {
    return( 
       <View style={styles.mainContainer}>
          <Text style={styles.mainText}>SEARCH SCREEN</Text>
@@ -22,4 +22,4 @@ const styles = StyleSheet.create({
    }
 })
 
-export default ScreenTwo
+export default Search
